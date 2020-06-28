@@ -1,10 +1,23 @@
 .header {
 background-color:rgba(46, 177, 177, 0.671);
 color:white;
-text-align:center;}
+text-align:center;
+
+height:10%;
+
+}
 
 .row.menu .col{
     background-color: rgba(140, 228, 128, 0.945);
     color:black;
     text-align:center;
+}
+#hand-choose{
+    min-width:20px;
+    min-height:30px;
+}
+
+.header p{
+    position: relative;
+    top:45%;
 }

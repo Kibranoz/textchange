@@ -3,9 +3,7 @@ function stringSansVirgules(rangee){
     var string = " "
     for (i = 0; i<rangee.length; i++){
         string += rangee[i];
-        console.log(string)
     }
-    console.log(rangee);
     return string
 }
 
@@ -21,7 +19,16 @@ $('#alterner').click(function(){
         }
 
     }
-    console.log(nouvelRangee);
     $("#resultat p").html(stringSansVirgules(nouvelRangee));
     
+})
+$("#clap").click(function(){
+    var clapEmoji = $("select#hand-choose").val().toString();
+    var rangeeAChanger = $("#texttoChange").val().toString().split(' ');
+    var nouvelRangee = []
+    for (i=0; i<rangeeAChanger.length; i++){
+        nouvelRangee[i] = rangeeAChanger[i] + " " + clapEmoji + " ";
+    }
+    $("#resultat p").html(stringSansVirgules(nouvelRangee));
+
 })

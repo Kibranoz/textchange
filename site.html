@@ -10,12 +10,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <div class="container-fluid header">
-Modificateur de texte
+<p>Modificateur de texte</p>
 </div>
 <div class ="row menu">
 <div class = "col" id = "alterner">aLtErNeR</div>
 <div class = "col" id = "clap">👏🏻</div>
 </div>
+<body>
 <div class = "container">
 <div class = "form-group">
 <label for = "texttoChange"> Entrez votre texte</label>
@@ -27,7 +28,29 @@ Entrer votre texte et cliquez sur le boutton du haut pour le changer
 <div class = "container" id = "resultat">
     <p></p>
 </div>
+
+<div class = "container">
+    <b>Menu</b> <br>
+<label for = "hand">Type de main</label>
+
+
+
+
+<select name = "hand" id = "hand-choose" >
+    <option class = "dropdown-item hand-menu" id = "blackhand"  value = "👏🏿">👏🏿</option>
+    <option class = "dropdown-item hand-menu" id = "brownhand" value = "👏🏾">👏🏾</option>
+    <option class = "dropdown-item hand-menu" id = "latinohand" value = "👏🏽">👏🏽</option>
+    <option class = "dropdown-item hand-menu" id = "whitetanhand" value = "👏🏽">👏🏽</option>
+    <option class = "dropdown-item hand-menu" id = "whitehand" value = "👏🏻">👏🏻</option>
+    <option class = "dropdown-item hand-menu" id = "yellowhand" value = "👏">👏</option>
+</select>
+
+</div>
+
+
+
 <a href = "test.html">test</a>
+</body>
 <script src = "script.js"></script>
 <script type="module">
     
