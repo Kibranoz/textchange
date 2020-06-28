@@ -1,0 +1,21 @@
+{
+    "short_name": "textChange",
+    "name": "textChange",
+    "icons": [
+      {
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo copie.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/site.html?source=pwa",
+    "background_color": "#0099fe",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#0099fe"
+  }
