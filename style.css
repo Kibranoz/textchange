@@ -1,0 +1,10 @@
+.header {
+background-color:rgba(46, 177, 177, 0.671);
+color:white;
+text-align:center;}
+
+.row.menu .col{
+    background-color: rgba(140, 228, 128, 0.945);
+    color:black;
+    text-align:center;
+}
