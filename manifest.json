@@ -13,7 +13,7 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/site.html",
+    "start_url": "https://kibranoz.github.io/textChange/site.html",
     "background_color": "#0099fe",
     "display": "standalone",
     "scope": "/",
