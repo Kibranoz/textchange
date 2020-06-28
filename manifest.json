@@ -3,7 +3,7 @@
     "name": "textChange",
     "icons": [
       {
-        "src": "logo.png",
+        "src": "https://kibranoz.github.io/textchange/logo.png",
         "type": "image/png",
         "sizes": "192x192"
       },
