@@ -12,6 +12,9 @@ height:5%;
     color:black;
     text-align:center;
 }
+.col{
+    height:5%;
+}
 #hand-choose{
     min-width:20px;
     min-height:30px;
@@ -19,5 +22,10 @@ height:5%;
 
 .header p{
     position: relative;
-    top:45%;
+    top:22%;
+    bottom:22%;
+}
+
+.row.menu.red .col{
+    background-color: rgb(250, 108, 120)!important;
 }
