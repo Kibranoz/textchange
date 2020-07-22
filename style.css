@@ -20,7 +20,7 @@ height:5%;
     min-height:30px;
 }
 
-.header p, .row.menu .col p{
+.header p{
     position: relative;
     top:22%;
     bottom:22%;
