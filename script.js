@@ -6,7 +6,7 @@ function copyToClipboard(element) {
     document.execCommand("copy");
     $temp.remove();
   }
-  $("#copier").click(()=>{$("#resultat p").text().select();document.execCommand("copy")})
+  $("#copier").click(()=>{$("#resultat p").html().select();document.execCommand("copy")})
 function stringSansVirgules(rangee){
     var string = " "
     for (i = 0; i<rangee.length; i++){
