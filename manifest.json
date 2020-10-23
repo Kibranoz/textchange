@@ -16,6 +16,6 @@
     "start_url": "https://kibranoz.github.io/textchange/site.html",
     "background_color": "#0099fe",
     "display": "standalone",
-    "scope": "/",
+    "scope": "https://kibranoz.github.io/textchange/",
     "theme_color": "#0099fe"
   }
